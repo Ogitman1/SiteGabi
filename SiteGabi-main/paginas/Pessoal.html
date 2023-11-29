@@ -5,11 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gabi</title>
     <link rel="stylesheet" href="../assets/css/Gabi2.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
+    <nav class="nav">
+        <ul class="nav nav-pills" style="display: flex; align-items: center; justify-content: center;">
+            <li class="nav-item">
+                <a style="font-size: 23px; font-weight: 500;" >Gabriela Lopes</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" target="_blank" href="./Gabi.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" href="./realidadev.html" >Tecnologia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" href="#">Tarefas</a>
+            </li>
+            
+          </ul>
+      </nav>
 <div id="container" style="color: black;">
     <div id="nav" >
-        <img src="../assets/imagens/Gabi2.png" style="border: 2px solid black;" alt="Gabi">
+        <img src="../assets/imagens/Gabi.png" style="border: 2px solid black;" alt="Gabi">
             <header>
                 <h2 style="font-size: 29px;">
                     Gabriela Lopes
@@ -17,23 +36,48 @@
                 
             </header>
         </img>
-        <h2 style="margin-top: 20px; margin-bottom: 10px;">Sobre Mim</h2>
-        <p style="text-align: center; height: auto; width: 70%; margin-bottom: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, quo provident eaque repudiandae voluptas molestias iure architecto tenetur ipsum maxime repellat perspiciatis perferendis fuga dignissimos cumque? Amet dolores vitae quam.</p>
+        
+    </div>
+    <div id="bio">
+        <h2 style="margin-bottom: 20px; margin-top: 20px;">Sobre Mim</h2>
+        <p style="text-align: center;">
+            Nascida em 22 de agosto de 2005, criada em São Paulo - SP. Sempre estudei em colégios particulares desde pequena, atualmente estudo no Senac Nações Unidas, cursando o 3°ano do ensino médio, junto com um curso de informática. Ano que vem estarei fazendo faculdade de jornalismo com duração de 4 anos. É uma profissão muita linda que eu comecei a me interessar por causa da curiosidade que acabou me levando para conhecer sobre essa profissão. Já realizei muitos sonhos na minha vida, um deles foi ter tido a minha festa de 15 anos, viajar para Goiás, etc.
+            Sempre fui uma menina que gostou de dar o melhor para as pessoas importantes na minha vida, como minha família e meus amigos. Sou essa menina que gosta de ajudar as outras pessoas que estão ao meu lado a todo momento.
+            
+        </p>
     </div>
     <div id="hobby">
-        <h2 style="margin-bottom: 20px; margin-top: 20px;">Meus hobbies</h2>
-        <p style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit qui sed non. Blanditiis, nesciunt voluptatum! Ad molestiae iure, dicta nobis eum quia est nihil rerum voluptatibus atque modi repudiandae optio.</p>
+        <h2 style="margin-top: 20px; margin-bottom: 20px; text-align: center; ">Meus Hobbies</h2>
+    <p style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur nihil, dignissimos, iste itaque harum commodi deserunt quisquam modi eum, deleniti dolorum cum corrupti necessitatibus ipsa exercitationem illum. Esse, consequuntur explicabo!</p>
+    
     </div>
     <div id="alg">
         <h2 style="margin-top: 20px; margin-bottom: 20px; text-align: center; ">Informações de contato</h2>
 <p style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur nihil, dignissimos, iste itaque harum commodi deserunt quisquam modi eum, deleniti dolorum cum corrupti necessitatibus ipsa exercitationem illum. Esse, consequuntur explicabo!</p>
  
 </div>
+
 <footer id="footer">
     <h2>Gabriela Lopes</h2>
     <hr width="70%" style="margin: 12px auto;">
     <p>Instagram</p>
   </footer> 
+  
 </div>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+<script>
+    var classes = document.getElementsByClassName('nav-link');
+
+    for (var i = 0; i < classes.length; i++) {
+        classes[i].addEventListener("mouseover", function () {
+            // Toggle da classe 'active' para cada elemento
+            this.classList.add("active");
+        });
+        classes[i].addEventListener("mouseout", function (){
+            this.classList.remove("active");
+        })
+    }
+</script>
 </body>
 </html>
