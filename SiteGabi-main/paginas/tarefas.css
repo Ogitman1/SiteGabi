@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#pin{
+    width: 100%;
+    height: 10vh;
+    display: flex; align-items: center; 
+    justify-content: center; 
+    background-color: rgb(100, 14, 139);
+    color: antiquewhite;
+}
+#pin button{
+    margin-left: 27px;
+   font-family: calibri;
+   font-size: 19px;
+}
+
+br{
+    margin: 90px 0px;
+}
+
+.collapse {
+    height: 400px;
+    width: auto;
+    overflow: auto;
+}
