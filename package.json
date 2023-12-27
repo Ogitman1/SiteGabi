@@ -1,0 +1,17 @@
+{
+  "name": "sitegabi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "yarn start",
+    "test": "yarn test",
+    "build": "yarn build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "yarn": "^1.22.21",
+    "yarn.lock": "^0.0.1-security"
+  }
+}
