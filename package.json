@@ -8,6 +8,11 @@
     "test": "yarn test",
     "build": "yarn build"
   },
+  
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ogitman1/sitegabi"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
